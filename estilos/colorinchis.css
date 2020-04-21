@@ -1,0 +1,22 @@
+#recompensas, #objetivos {
+	color:blue;
+}
+
+body {
+	background-color:yellow;
+}
+
+body p {
+	background-color:gray;
+}
+
+
+.destacable {
+	background-color:green;
+}
+
+.destacable p {
+	background-color:red;
+	background-color:red;
+	border-style:dotted;
+}

@@ -1,0 +1,36 @@
+div, h3, p {
+	margin:0;
+	padding:0;
+}
+
+#parent-block {
+	background-color:gray;
+	padding:1%;
+	height:1080px;
+}
+
+.block {
+	margin: 1% 1% 1%;
+	padding: 1%;
+}
+
+img {
+	float:left;
+	margin: 1% 1% 1%;
+}
+
+#presentacion {
+	background-color:pink;
+}
+
+#objetivos {
+	background-color:lightgreen;
+	float:left;
+	width:45%;
+}
+
+#recompensas {
+	background-color:lightblue;
+	float:right;
+	width:45%;
+}

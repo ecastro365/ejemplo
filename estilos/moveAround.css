@@ -1,0 +1,135 @@
+/* p { */
+	/* text-align:justify; */
+/* } */
+
+html, body, img, h3, p {
+	margin:0;
+	padding:0;
+}
+
+h3 {
+	margin-bottom:10px
+}
+p {
+	text-align:justify;
+}
+
+nav {
+	background-color:white;
+	width:100%;
+	height:100px;
+	position:fixed;
+	z-index:1;
+}
+
+nav ul {
+list-style-type:none;
+padding:0;
+}
+nav li {
+display:inline;
+float:left;
+}
+nav a:link, nav a:visited {
+background-color:brown;
+color:white;
+display:block;
+width:160px;
+text-align:center;
+padding: 10px 0;
+}
+nav a:hover {
+background-color:black;
+}
+
+#parent-block {
+	background-color:grey;
+	height:1080px;
+	padding:1%;
+	position:relative;
+	top:100px;
+	z-index:0;
+}
+.block {
+	margin: 1% 1% 1%;
+	padding: 1%;
+	position:absolute;
+}
+#presentacion {
+	background-color:pink;
+	/* top:100px; */
+}
+#objetivos {
+	background-color:lightgreen;
+	width:45%;
+	left:1%;
+	top:800px;
+}
+#recompensas {
+	background-color:lightblue;
+	width:45%;
+	right:1%;
+	top:900px;
+}
+img {
+	margin: 1% 1% 1%;
+	float:left;
+}
+
+p {
+	text-align:justify;
+}
+
+td, th {
+border:1px solid black;
+text-align:center;
+padding:5px;
+}
+th {
+	background-color:red;
+	color:yellow;
+}
+.recompensasTable {
+width:80%;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* p {
+	text-align:justify;
+}
+
+html {
+ font: normal small-caps normal 16px/1.4 Georgia;
+}
+
+body {
+    font: italic small-caps bold 44px "Times New Roman", Serif;
+} */
+
+/* 
+body {
+  font: [Style] [Variant] [Weight] [Stretch] [Size]/[Height] [Family];
+}
+
+ul {
+	list-style-type:square
+}
+ol {
+	list-style-type:upper-alpha
+}
+.hortera {
+	list-style-image:url("imagenes/estupideces/iconoDragonBall.png");
+}
+
+/* Es lo mismo que: */
+
+/* body {
+  font-family: Georgia;
+  line-height: 1.4;
+  font-weight: normal;
+  font-stretch: normal;
+  font-variant: small-caps;
+  font-size: 16px;
+} */
+
